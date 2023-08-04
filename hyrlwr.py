@@ -1,3 +1,18 @@
+# logo - game
+
+# take a random item from dict,
+# take name, folower count, description and country
+# save it in list A
+# take another, save in list B
+# Ask which has more followers (make lower case)
+# if wrong, game over
+# give feedback and show final score
+# if correct, score += 1
+# list A inherits list B
+# list B takes a new random item from 
+# get a feedback and show current score
+# Repeat steps 7 - 11
+# end game
 
 import random
 from art import logo, vs
