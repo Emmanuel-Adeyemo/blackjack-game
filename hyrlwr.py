@@ -10,10 +10,9 @@ def game():
     """ higher or lower game """
     
     first_item = random.choice(data)
-    print(first_item)
+   
     second_item = random.choice(data)
-    print(second_item)
-    
+        
     def show_instructions(first, second):
            
         print(f"Compare A: {first['name']}, a {first['description']}, from {first['country']}.")
